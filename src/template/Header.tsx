@@ -4,14 +4,14 @@ import Image from 'next/image';
 import { BsList, BsX } from "react-icons/bs";
 import react, { useState } from 'react';
 
-const styles = {
+const styles = { 
    navLinks: 'cursor-pointer border-b  text-primary-500 border-white hover:border-primary-500 hover:opacity-80'
 }
 export default function Header() {
    const [bukaMenu, setBukaMenu] = useState(false);
    const toggleMenu = () => setBukaMenu(!bukaMenu);
   return (
-     <header className='mr-10 ml-10 md:mr-24 md:ml-24 py-8 bg-white'>
+     <header className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mt-10 mb-10 bg-white'>
         <nav className='flex justify-between items-center'>
             {/*Menu Desktop*/}
             <div className=''>
