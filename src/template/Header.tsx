@@ -40,7 +40,7 @@ export default function Header() {
             <div className={
                bukaMenu
                   ? 'fixed z-50 top-0 left-0 w-[75%] sm:hidden h-screen bg-primary-500 p-10 ease-in-out duration-500'
-                  : 'fixed left-[-100%] top-0 p-10 ease-in-out duration-500'}>
+                  : 'fixed left-[-100%] top-0 p-10 ease-in-out duration-500 z-50'}>
                <div className='flex w-full items-center justify-end'>
                   <div onClick={toggleMenu} className='cursor-pointer'>
                      <BsX  className='h-8 w-8 text-white hover:opacity-80'></BsX>
