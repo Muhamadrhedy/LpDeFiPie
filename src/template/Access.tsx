@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Access() {
   return (
-     <section className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mb-24'>
+     <section className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 lg:mb-24'>
         <div>
             <div className='py-4 mb-5'>
                 <h2 className='text-3xl text-center font-bold text-primary-500 md:text-start md:text-5xl md:w-[70%]'>Access <span className='text-primary-300'>high-potential</span> DeFi startup before everyone else</h2>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Traditional() {
   return (
-     <section className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mb-24 '>
+     <section className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 lg:mb-24 '>
         <div className='grid grid-cols-1 md:grid-cols-2'>
             <div>
                 <h2 className='text-3xl text-center font-bold text-primary-500 md:text-start lg:ml-[5rem] md:text-5xl md:w-60 '>Traditional Fundraising <span className='text-primary-300'>Doesn't Work</span> in Defi</h2>

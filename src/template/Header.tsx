@@ -11,7 +11,7 @@ export default function Header() {
    const [bukaMenu, setBukaMenu] = useState(false);
    const toggleMenu = () => setBukaMenu(!bukaMenu);
   return (
-     <header className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mt-10 mb-10 bg-white'>
+     <header className='max-w-7xl mx-auto px-4 sm:px-6 p-2 md:p-5 lg:p-7 bg-white'>
         <nav className='flex justify-between items-center'>
             {/*Menu Desktop*/}
             <div className=''>
