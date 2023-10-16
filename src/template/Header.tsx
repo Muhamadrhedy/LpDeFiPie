@@ -11,9 +11,10 @@ export default function Header() {
    const [bukaMenu, setBukaMenu] = useState(false);
    const toggleMenu = () => setBukaMenu(!bukaMenu);
   return (
-     <header className='max-w-7xl mx-auto px-4 sm:px-6 p-2 md:p-5 lg:p-7 bg-white'>
+   <section className='fixed w-full top-0 z-50 bg-white'>
+     <header className='max-w-7xl mx-auto px-4 sm:px-6 p-2 md:p-5 bg-white'>
         <nav className='flex justify-between items-center'>
-            {/*Menu Desktop*/}
+            {/*Menu Desktop*/} 
             <div className=''>
                <Link href={"#"} className='flex justify-start items-center'>
                   <Image src='/img/logo/logo.png' alt='Logo' className='cursor-pointer' width={35} height={35} />
@@ -68,5 +69,7 @@ export default function Header() {
             </div>
         </nav>
      </header>
+     </section>
+
   )
 };

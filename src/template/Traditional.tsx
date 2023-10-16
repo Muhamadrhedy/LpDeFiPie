@@ -4,8 +4,8 @@ export default function Traditional() {
   return (
      <section className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 lg:mb-24 '>
         <div className='grid grid-cols-1 md:grid-cols-2 md:justify-between'>
-            <div className='md:w-[50%]'>
-                <h2 className='text-3xl text-center font-bold text-primary-500 md:text-start md:text-5xl md:w-60 '>Traditional Fundraising <span className='text-primary-300'>Doesn't Work</span> in Defi</h2>
+            <div className=''>
+                <h2 className='text-3xl text-center font-bold text-primary-500 md:text-start md:text-5xl  '>Traditional Fundraising <span className='text-primary-300'>Doesn't Work</span> in Defi</h2>
             </div>
             <div className='grid grid-row-5 place-items-center w-full md:justify-end gap-3 mt-5 md:mt-2'>
                 <div className='text-start p-2 md:p-4 w-[100%] text-xs text-primary-500 bg-white hover:bg-zinc-50 shadow-lg rounded-lg shadow-gray-200 lg:text-sm xl:text-lg'>

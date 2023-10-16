@@ -1,72 +1,73 @@
 import React from 'react'
 
 export default function Vision() {
-  return ( 
-     <section className='bg-zinc-50'>
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 lg:pb-24'>
+  return (
+     <section className='w-full bg-zinc-50 to-transparent relative z-10  '>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 lg:pb-24 '>
+            <img src="img/background/vis-bg.png" alt="bg-vision" className=" -z-10 absolute top-0 left-0 t-0 "/>
             <div className='py-4 mb-5'>
-                <h2 className='text-3xl text-center font-bold text-primary-500 md:text-start md:text-5xl'>Vision is the <span className='text-primary-300'>answer</span></h2>
-                <h4 className='md:w-96 lg:w-[35rem] text-center text-xs md:text-start lg:text-sm xl:text-lg mt-3'>You have an idea inclpie has a plan. We offer everything you need to go from an-early stage idea to a seccesfull exchange listing</h4>
+                <h2 className=' text-3xl text-center font-bold text-primary-500 md:text-start md:text-5xl'>Vision is the <span className='text-primary-300'>answer</span></h2>
+                <h4 className=' md:w-96 lg:w-[35rem] text-center text-xs md:text-start lg:text-sm xl:text-lg mt-3'>You have an idea inclpie has a plan. We offer everything you need to go from an-early stage idea to a seccesfull exchange listing</h4>
             </div>
             <div className='grid grid-flow-row gap-3 ssm:grid-cols-2'>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg'>Decentralized investments</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'>We'll distribute your tokens among our huge and active comunity</h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Access to profesional investor</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'>we'll put you in touch with funds and bussines</h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Exchange realations</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'>Get better terms when listing your token</h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Staking</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'>Allow user to stoke your tokens on DelPi and earn rewards</h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Product market fit analysis</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'></h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Detaild tokenomices</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'></h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Smaft contract audit</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'></h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>Comunity building and social media marketing</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'></h5>
                     </div>
                 </div>
                 <div className='flex justify-start items-start text-center bg-white shadow-lg shadow-gray-200 rounded-lg hover:bg-zinc-50'>
-                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[2rem] mt-[1rem] ml-[1rem]'/>
+                    <img src="img/icon/cent.png" alt="ceklistijo" className='w-[1rem] md:w-[1.5rem] mt-[1rem] md:mt-[1.65rem] ml-[1rem]'/>
                     <div className='mx-2 text-start p-2 md:p-4 md:w-[52%] '>
                         <h4 className=' text-xs mt-2 lg:text-sm xl:text-lg w-[100%]'>White paper, blog, and media content from best author</h4>
                         <h5 className=' font-thin text-bayi text-xs mb-2 lg:text-sm w-[100%]'></h5>

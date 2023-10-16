@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export default function Brought() {
   return (
-     <section className=' relative flex justify-normal items-center max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:mt-[21rem] lg:mb-[21rem]'>
-        <div className=' w-full lg:w-2/4 grid grid-cols-1 place-items-center mb-2 lg:ml-[25rem]'>
-            <img src="img/logo/logo.png" alt="" className='w-[20%]'/>
+     <section className=' lg:relative flex justify-normal items-center max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:mt-[21rem] lg:mb-[21rem] mb-5'>
+        <div className=' w-full lg:w-2/4 grid grid-cols-1 place-items-center lg:place-items-start mb-5 lg:ml-[30rem]'>
+            <img src="img/logo/logo.png" alt="" className='w-[20%] my-5'/>
             <h2 className="text-primary-500 font-bold text-3xl md:text-5xl text-center mb-7 ">
             <span className="text-primary-300">Brought to you</span> by DeFiPie
           </h2>

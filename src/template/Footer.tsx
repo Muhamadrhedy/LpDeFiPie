@@ -3,8 +3,10 @@ import React from 'react'
 export default function Footer() {
   return (
      <section>
-        <footer className='bg-primary-500 rounded-tl-[30px] md:rounded-tl-[100px]'>
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 py-8 md:pt-[3%] relative'>
+        <footer className='bg-primary-500 rounded-tl-[30px] md:rounded-tl-[100px] py-[4%] relative z-10'>
+        <img src="img/background/bgf-1.png" alt="bg-footer" className='absolute opacity-30 -z-10 right-0 bottom-0'/>
+              <img src="img/background/bgf-2.png" alt="bg-footer" className='absolute opacity-30 -z-10 left-0 bottom-0'/>
+            <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 p-2 md:p-5 py-8 relative z-10'>
                 <div className='md:w-[55%] flex-wrap md:justify-start'>
                   <div className='py-8'>
                     <h2 className='text-3xl w-full text-center font-bold text-white md:text-start md:text-5xl '><span className='text-primary-300'>Join</span> Vision Capital and get funded</h2>
