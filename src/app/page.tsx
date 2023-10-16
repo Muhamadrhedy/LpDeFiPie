@@ -4,7 +4,7 @@ import backgroundImage from '../../public/img/background/bg-1.png'
 
 export default function Home() {
   return (
-    <section className='py-[10rem] md:py-[15rem] lg:py-[25rem] bg-zinc-50 to-transparent z-10 relative'>
+    <section className='py-[10rem] md:py-[15rem] bg-zinc-50 to-transparent z-10 relative'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8'>
         <div className=''>
           <img src="img/background/bg-1.png" alt="bg-home" className=" absolute top-0 left-0 -z-10 lg:mt-[-2%]"/>
